@@ -1,0 +1,27 @@
+{
+  "name": "url_shorter",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/EpsiSocialNetwork/url_shorter.git",
+  "author": "cbarange",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+  	"dotenv": "^8.2.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.2.0",
+    "morgan": "^1.10.0",
+    "nanoid": "^3.1.18",
+    "redis": "^3.0.2",
+    "yup": "^0.31.0"
+  }
+}
